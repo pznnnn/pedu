@@ -1,0 +1,35 @@
+.serviços {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    border: 2px solid rgb (26, 26, 26);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 20px;
+    transition: border color 0.3s;
+     
+}
+
+ .serviços:hover {
+    border-color: rgb(131, 132, 184);
+
+ }
+
+ .serviços a {
+    text-decoration: none;
+    color: rgb(156, 168, 221);
+    padding: 10px;
+    
+ }
+
+ .serviços a:hover {
+    color: white;
+    cursor: pointer;
+
+}
+
+.titulo-header {
+    font-weight: bold;
+
+}
